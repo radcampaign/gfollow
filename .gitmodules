@@ -1,0 +1,3 @@
+[submodule "googleCard-Wordpress"]
+	path = googleCard-Wordpress
+	url = ssh://git@github.com/radcampaign/googleCard-Wordpress.git
