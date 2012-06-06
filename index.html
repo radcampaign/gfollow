@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get it!</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css" />
+  </head>
+  <body>
+  	
+	<div class="allwrapper">
+    <div class="modal">
+    <div class="modalbuttons">
+    <div class="modallaunch"><a href="http://plus.google.com" target="_blank"><img src="images/modallaunch.png"></a></div>
+    <div class="modalclose"><a class="modalcloselink" href="#"><img src="images/modalclose.png"></a></div>
+    </div>
+    
+    </div>
+        <div class="pagetitle">
+        <h1>RAD Google+ button!</h1>
+        <div class="info">
+        <p>Presented by the rad folks at RAD Campaign. <br/>Enter your <a class="showmodal" href="#">Google+ ID</a> Below</p>
+        </div>
+        </div>
+        <div class="formwrapper">
+            <div class="form">
+              <input id="id" type="text" size="20" value="Google+ ID" onFocus="if(this.value == 'Google+ ID') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Google+ ID';}"/>
+              <input id="get" width="71" type="image" height="37" src="images/submit.png" value="GET IT" />
+            </div>
+        </div>
+         
+        <div class="codewrapper">
+          <h2>Here's your button!</h2>
+          <div class="buttonwrapper">
+          <div class="button"></div>
+          </div>
+          <div class="reset"><a href="http://www.radcampaign.com/dev/gfollow/index.html"><img src="images/reset.png"></a></div>
+          <div class="andheresthe"><h2>And here's the code:</h2></div>
+          <textarea style="display: hidden;" class="code" width="400" height="80"></textarea>
+        </div>
+    </div>
+  </body>
+</html>

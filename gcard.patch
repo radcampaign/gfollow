@@ -1,0 +1,23 @@
+diff --git a/googleCardClass.php b/googleCardClass.php
+index 1c93776..5593f81 100644
+--- a/googleCardClass.php
++++ b/googleCardClass.php
+@@ -63,14 +63,14 @@ class googleCard
+ 		// don't cache, use a transient instead
+ 		else
+ 		{
+-			// see if our data is in the db
++	/*		// see if our data is in the db
+ 			if (false === ($data = get_transient('googlecards')))
+ 			{
+ 				// if data is not in the db, fetch the data and store
+-				$data = $this->handleLoad();
+-				set_transient('googlecards', $data, 60*60*$this->cache_hours);
++		*/		$data = $this->handleLoad();
++			/*	set_transient('googlecards', $data, 60*60*$this->cache_hours);
+ 			}
+-
++*/
+ 			// return the data for both cases
+ 			return $data;
+ 		}
